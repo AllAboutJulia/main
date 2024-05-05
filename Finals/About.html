@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TechVantage | About Us</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+         /* Add your custom styles here */
+         body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+         }
+         .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+         }
+         .navbar {
+            background-color: #f4f4f4;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+         }
+         .logo img {
+            width: 125px;
+         }
+         .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 30px;
+	display: inline-block;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: black;
+}
+         }
+         .about-section {
+            background-color: #fff;
+            padding: 50px 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         }
+         .about-section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+         }
+         .about-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #666;
+         }
+         .team-photos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+         }
+         .team-photo {
+            text-align: center;
+            margin: 0 20px;
+         }
+         .team-photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+         }
+         .team-caption {
+            font-size: 16px;
+            font-weight: 500;
+            color: #444;
+         }
+     </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="main.html"> <img src="logo.png" alt="TechVantage Logo"></a>
+        </div>
+     <nav>
+     <ul id="MenuItems">
+	    <li><a href="main.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+		<li><a href="About.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="account.html">Account</a></li>
+      </ul>
+	  
+	  </nav>
+        <a href="emptycart.html"><img src="bag.png" width="30px" height="30px"></a>
+
+        <img src="menu.webp" class="menu-icon" onclick="menutoggle()" alt="Menu">
+    </div>
+    <!-- End of Navbar -->
+
+    <!-- About Us Section -->
+    <div class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>TechVantage</strong>, your premier destination for all things gaming! At <strong>TechVantage</strong>, we're more than just a gaming store—we're a passionate team dedicated to bringing the joy of gaming to our community. With a diverse selection of games, accessories, and expertise, we're here to make every gaming experience memorable.</p>
+        <p>Our team consists of avid gamers who share a deep love for the gaming industry. From tabletop enthusiasts to competitive esports players, we bring a wealth of knowledge and enthusiasm to everything we do.</p>
+        <!-- Inserting the Team Photos -->
+        <div class="team-photos">
+            <div class="team-photo">
+                <img src="adrian.jpg" alt="Team Member 1">
+                <p class="team-caption">Adrian Esmenda</p>
+            </div>
+            <div class="team-photo">
+                <img src="victhoria.jpg" alt="Team Member 2">
+                <p class="team-caption">Ma. Victhoria Gracielle Abarquez</p>
+            </div>
+            <div class="team-photo">
+                <img src="juris.jpg" alt="Team Member 3">
+                <p class="team-caption">Juris Limbaga</p>
+            </div>
+            <div class="team-photo">
+                <img src="francheska.jpg" alt="Team Member 4">
+                <p class="team-caption">Francheska Cubilla</p>
+            </div>
+            <div class="team-photo">
+                <img src="mendoza.jpg" alt="Team Member 5">
+                <p class="team-caption">Jamen Ross Mendoza</p>
+            </div>
+        </div>
+        <!-- End of Team Photos Section -->
+        <p>But our commitment to gaming goes beyond just selling products. We're building a community where gamers can come together, connect, and celebrate their shared passion. Whether you're looking for the latest releases or seeking advice on your next gaming adventure, we're here to help.</p>
+        <p>Thank you for choosing <strong>TechVantage</strong> as your gaming destination. Let's embark on this journey together and make every moment count!</p>
+    </div>
+    <!-- End of About Us Section -->
+</div>
+
+<!-- Footer Section -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phones.</p>
+                <div class="app-logo">
+                    <img src="playstore.png" alt="Play Store Logo">
+                    <img src="apple.png" alt="Apple Store Logo">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="main.html"> <img src="logo.png" alt="TechVantage Logo"></a>
+                <p>Our Goal Is to Ensure Everyone Can Enjoy the Power and Convenience of Technology in Their Daily Lives, Sustainably.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                    <li>Tiktok</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">TechVantageSol 2024 All Rights Reserved.</p>
+    </div>
+</div>
+<!-- End of Footer Section -->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<img id="upButton" src="arrow.png" alt="Up" onclick="scrollToTop()" title="Go to top" width="50" height="50">
+<script>
+// Function to scroll to the top of the page smoothly
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+// Show the up button when scrolling down
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  var upButton = document.getElementById("upButton");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    upButton.style.display = "block";
+  } else {
+    upButton.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

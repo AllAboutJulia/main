@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TechVantage | Contact Us</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+         /* Add your custom styles here */
+         body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+         }
+         .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+         }
+         .navbar {
+            background-color: #f4f4f4;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+         }
+         .logo img {
+            width: 125px;
+         }
+         .navbar {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        nav {
+            flex: 1;
+            text-align: right;
+        }
+        nav ul {
+            display: inline-block;
+            list-style-type: none;
+        }
+        nav ul li {
+            margin-right: 30px;
+            display: inline-block;
+            position: relative;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        p {
+            color: black;
+        }
+         }
+         .contact-section {
+            background-color: #fff;
+            padding: 50px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         }
+         .contact-section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+         }
+         .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+         }
+         .contact-form input[type="text"],
+         .contact-form input[type="email"],
+         .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+         }
+         .contact-form textarea {
+            height: 150px;
+         }
+         .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+         }
+         .contact-form input[type="submit"]:hover {
+            background-color: #555;
+         }
+         .contact-info {
+            text-align: center;
+            margin-top: 30px;
+         }
+         .contact-info p {
+            font-size: 18px;
+            color: #555;
+         }
+     </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="main.html"> <img src="logo.png" alt="TechVantage Logo"></a>
+        </div>
+         <nav>
+     <ul id="MenuItems">
+	    <li><a href="main.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+		<li><a href="About.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="account.html">Account</a></li>
+      </ul>
+	  
+	  </nav>
+        <a href="emptycart.html"><img src="bag.png" width="30px" height="30px"></a>
+        <img src="menu.webp" class="menu-icon" onclick="menutoggle()" alt="Menu">
+    </div>
+    <!-- End of Navbar -->
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+        <div class="contact-info">
+            <h3>Reach Out to Us</h3>
+            <p>Have any questions or concerns? Feel free to contact us via email or phone.</p>
+            <p>Email: info@techvantage.com</p>
+            <p>Phone: 09384293043</p>
+        </div>
+    </div>
+    <!-- End of Contact Section -->
+
+</div>
+
+<!-- Footer Section -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phones.</p>
+                <div class="app-logo">
+                    <img src="playstore.png" alt="Play Store Logo">
+                    <img src="apple.png" alt="Apple Store Logo">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="main.html"> <img src="logo.png" alt="TechVantage Logo"></a>
+                <p>Our Goal Is to Ensure Everyone Can Enjoy the Power and Convenience of Technology in Their Daily Lives, Sustainably.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                    <li>Tiktok</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">TechVantageSol 2024 All Rights Reserved.</p>
+    </div>
+</div>
+<!-- End of Footer Section -->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
